@@ -24,7 +24,7 @@
 
 HTML, CSS, JavaScript를 사용하여 만든 스테이폴리오 클론 사이트 입니다.
 
-메뉴, 선수단 소개, 경기일정, 유튜브 등 사이트를 처음부터 끝까지 구현해보았습니다. 
+main, pre-order 페이지를 반응형으로 제작하였습니다. 
 
 <br>
 
@@ -48,13 +48,17 @@ HTML, CSS, JavaScript를 사용하여 만든 스테이폴리오 클론 사이트
 ## &#127988; 주요 기능
 
 ### 1. 상단
+![스테이폴리오1](https://github.com/soyeon1221/STAY-FOLIO/assets/121142418/a10f6524-96fe-4d8d-95af-0131fcc3a95b)
 
-### 2. 선수단 소개
+### 2. 숙소 소개
+![스테이폴리오2](https://github.com/soyeon1221/STAY-FOLIO/assets/121142418/2193da64-fe06-42f9-857e-b13f4dca1280)
 
-### 3. 경기일정
+### 3. 반응형
 
-### 4. 유튜브
+### 4. pre-order
+![스테이폴리오_1](https://github.com/soyeon1221/STAY-FOLIO/assets/121142418/73b4c498-f131-4250-bcf0-9ac5eee7a825)
 
-### 5. 미디어
+### 5. 공개 예정
+![스테이폴리오_2](https://github.com/soyeon1221/STAY-FOLIO/assets/121142418/f0497827-b15f-47d3-a514-a9bf4d190f72)
 
 
