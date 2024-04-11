@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PRE-ORDER</title>
+  <link rel="stylesheet" href="./pre-order.css">
+</head>
+<body>
+  <div id="wrap">
+    <!-- HEADER -->
+    <header id="header">
+      <a href="./index.html">BRAND STAYS</a>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav id="menu">
+      <ul class="flex menu-list">
+        <li>
+          <a href="#" class="flex nav-logo"></a>
+        </li>
+        <li class="flex dropdown-container">
+          <div class="flex">
+            <svg class="where-icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+              <path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/>
+            </svg>
+            <a class="nav-where">어디로 떠날까요?</a>
+          </div>
+          <div class="flex">
+            <svg class="when-icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+              <path d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z"/>
+            </svg>
+            <a href="#" class="nav-when">언제 떠날까요?</a>
+          </div>
+        </li>
+        <li>
+          <ul class="flex sub-menu">
+            <li class="sub-list">FIND STAY</li>
+            <li class="sub-list">PROMTION</li>
+            <li class="sub-list">JOURNAL</li>
+            <li class="sub-list preorder">
+              <a href="./pre-order.html">PRE-ORDER</a>
+            </li>
+            <li class="flex user">
+              <div class="login">
+                <svg class="login-icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                  <path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"/>
+                </svg>
+                LOGIN
+              </div>
+              <div class="global">
+                <svg class="global-icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                  <path d="M352 256c0 22.2-1.2 43.6-3.3 64H163.3c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64H348.7c2.2 20.4 3.3 41.8 3.3 64zm28.8-64H503.9c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64H380.8c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32H376.7c-10-63.9-29.8-117.4-55.3-151.6c78.3 20.7 142 77.5 171.9 151.6zm-149.1 0H167.7c6.1-36.4 15.5-68.6 27-94.7c10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5c11.6 26 20.9 58.2 27 94.7zm-209 0H18.6C48.6 85.9 112.2 29.1 190.6 8.4C165.1 42.6 145.3 96.1 135.3 160zM8.1 192H131.2c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64H8.1C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zM194.7 446.6c-11.6-26-20.9-58.2-27-94.6H344.3c-6.1 36.4-15.5 68.6-27 94.6c-10.5 23.6-22.2 40.7-33.5 51.5C272.6 508.8 263.3 512 256 512s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6C112.2 482.9 48.6 426.1 18.6 352H135.3zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6c25.5-34.2 45.2-87.7 55.3-151.6H493.4z"/>
+                </svg>
+                KO
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li class="side-menu">&#8801;</li>
+      </ul>
+      <div class="line"></div>
+    </nav>
+
+    <!-- CONTENTS -->
+    <div id="contents">
+      <div class="contents-title">
+        <div class="title">PRE-ORDER</div>
+        <div class="title-text">스테이폴리오가 선보이는 신규 스테이</div>
+      </div>
+      <div class="flex container">
+        <input type="radio" class="box-hidden new-input" name="box" id="new" checked>
+        <label for="new" class="new-label">신규 오픈</label>
+  
+        <input type="radio" class="box-hidden plan-input" name="box" id="plan">
+        <label for="plan" class="plan-label">공개 예정</label>
+
+        <!-- NEW-BOX -->
+        <div class="box-hidden new-box">
+          <div class="new-box-list">
+            <img class="new-img" src="https://images.stayfolio.com/system/pictures/images/000/181/549/original/3f67ec41ff6ba488cb81504e1bc4a44b2416fad7.jpg?1684990223" alt="">
+            <a href="#" class="new-banner">
+              <p class="benefit">10% OFF</p>
+              <div class="preorder-box">
+                <p class="new-name">놀리</p>
+                <p class="new-text">높은 담 아래 우리만의 시간</p>
+                <p class="new-city">제주 / 서귀포시 4~6명</p>
+              </div>
+              <div class="new-box-time">
+                <p>2일 12시간 18분 남음</p>
+              </div>
+            </a>
+          </div>
+          <div class="new-box-list">
+            <img class="new-img" src="https://images.stayfolio.com/system/pictures/images/000/181/855/original/1617524dfe5d5b6d948c24c1ea34f095d7a013e2.jpg?1685085146" alt="">
+            <a href="#" class="new-banner">
+              <p class="benefit">10% OFF</p>
+              <div class="preorder-box">
+                <p class="new-name">딜문</p>
+                <p class="new-text">세상에 드러나지 않은 신의 정원, 낙원</p>
+                <p class="new-city">전남 / 여수 4~6명</p>
+              </div>
+              <div class="new-box-time">
+                <p>2일 12시간 18분 남음</p>
+              </div>
+            </a>
+          </div>
+          <div class="new-box-list">
+            <img class="new-img" src="https://images.stayfolio.com/system/pictures/images/000/181/752/original/4ec079ff702e5788b035bd08b3486bd45aa56fcb.jpg?1685065673" alt="">
+            <a href="#" class="new-banner">
+              <p class="benefit">10% OFF</p>
+              <div class="preorder-box">
+                <p class="new-name">스테이가량</p>
+                <p class="new-text">석양이 내려오는 밝은 집</p>
+                <p class="new-city">제주 / 서귀포시 2~4명</p>
+              </div>
+              <div class="new-box-time">
+                <p>2일 12시간 18분 남음</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- PLAN-BOX -->
+        <div class="box-hidden plan-box">
+          <div class="plan-box-list">
+            <div class="plan-img-box">
+              <div id="container">
+                <img class="plan-img" src="https://images.stayfolio.com/system/pictures/images/000/182/780/original/f484ac6de7aad7dec3b512d36e6d86c0d8a72d7f.jpg?1685955194" alt="">
+                <img class="plan-img" src="https://images.stayfolio.com/system/pictures/images/000/182/785/original/fdbb679cf29411eaa60011935d21c0fa3191fe82.jpg?1685955195" alt="">
+                <img class="plan-img" src="https://images.stayfolio.com/system/pictures/images/000/182/778/original/b0d0f1f5ff0c90d73766cce7c81eb04f43fea2d4.jpg?1685955194" alt="">
+                <img class="plan-img" src="https://images.stayfolio.com/system/pictures/images/000/182/782/original/bf0a14004d11197142805660041fd7722701b2b1.jpg?1685955195" alt="">
+                <img class="plan-img" src="https://images.stayfolio.com/system/pictures/images/000/182/783/original/50a3c3357219f713259f6571d4a29f933966dbcd.jpg?1685955195" alt="">
+                <img class="plan-img" src="https://images.stayfolio.com/system/pictures/images/000/182/779/original/b2175a3a471089ddb535f18988ce4c300114d237.jpg?1685955195" alt="">
+                <img class="plan-img" src="https://images.stayfolio.com/system/pictures/images/000/182/787/original/d8d70e1b02208d0d706fc220941c5c2498df13e7.jpg?1685955195" alt="">
+                <img class="plan-img" src="https://images.stayfolio.com/system/pictures/images/000/182/781/original/eae67ffd9d48b2d68b48bca19907769f082f05b0.jpg?1685955195" alt="">
+                <img class="plan-img" src="https://images.stayfolio.com/system/pictures/images/000/182/786/original/79f54c767796a2d461022704e252d75d5c526e43.jpg?1685955195" alt="">
+              </div>
+              <button id="prev" class="prev img-btn hidden" onclick="navigateTo(-1)">&#10094;</button>
+              <button id="next" class="next img-btn" onclick="navigateTo(1)">&#10095;</button>
+              <div class="indicator">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+            </div>
+            <div class="plan-info">
+              <div class="info-top">
+                <p class="info-open">6 . 21 | 5 오후 OPEN</p>
+                <div class="info-name">
+                  <p class="info-title">사적공간</p>
+                  <div class="info-day">D - 9</div>
+                </div>
+                <p>10% 할인 & 알림 신청시 오픈 10분 전 우선 예약 제공</p>
+                <p class="personnel">현재 알람 신청 인원 : 3명</p>
+              </div>
+              <div class="info-bottom">
+                <div class="info-text">
+                  경기도 양평 옥천면, 산으로 둘러싸인 고요한 곳에 '사적공간'이 있다. '사적공간'은 그 이름처럼 외부의 어떤 방해나 관계로부터 벗어나 혼자만의 공간에서 얻는 휴식의 가치에 집중한다. 대문에서 스테이까지 나무 사이로 이어진 계단은 잠시나마 복잡한 일상을 벗어나는 '사적공간'으로 안내한다. 
+                </div>
+                <div class="info-option">
+                  <p>경기 / 양평군</p>
+                  <p>4~6명</p>
+                  <p>₩480,000 ~</p>
+                </div>
+                <button class="info-btn" type="button">알림 신청하기</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="plan-box-list">
+            <div class="plan-img-box">
+              <div id="container2">
+                <img class="plan-img" src="https://images.stayfolio.com/system/pictures/images/000/183/462/original/2e553d535ac40c957bfe0f1d09738743649ba258.jpg?1686530455" alt="">
+                <img class="plan-img" src="https://images.stayfolio.com/system/pictures/images/000/183/472/original/04fb3d312ef0dc04ba8ee7201941767b1a90a15e.jpg?1686530455" alt="">
+                <img class="plan-img" src="https://images.stayfolio.com/system/pictures/images/000/183/464/original/bbac54101808ba81f5d7935353530a016d6a544f.jpg?1686530455" alt="">
+                <img class="plan-img" src="https://images.stayfolio.com/system/pictures/images/000/183/467/original/b4a2afd352991f63337c49de10a24f49182de4b2.jpg?1686530455" alt="">
+                <img class="plan-img" src="https://images.stayfolio.com/system/pictures/images/000/183/465/original/094dcf95bbb59ccc574310d4eaebbc706dd0e2b5.jpg?1686530455" alt="">
+                <img class="plan-img" src="https://images.stayfolio.com/system/pictures/images/000/183/470/original/b6d5ce453b95c4f4403bdeb6330ff41e67f3ed51.jpg?1686530455" alt="">
+                <img class="plan-img" src="https://images.stayfolio.com/system/pictures/images/000/183/463/original/2741c1b5bfb2e506436c97c3fcca95ffd7e9896e.jpg?1686530455" alt="">
+                <img class="plan-img" src="https://images.stayfolio.com/system/pictures/images/000/183/473/original/915936ec5e98e681c2536fc21ada3497355ed894.jpg?1686530455" alt="">
+                <img class="plan-img" src="https://images.stayfolio.com/system/pictures/images/000/183/469/original/23d0329627efe90caf0f87e9451a844de8f16863.jpg?1686530455" alt="">
+                <img class="plan-img" src="https://images.stayfolio.com/system/pictures/images/000/183/466/original/e3fd00218db77e92793c7422d6e950c57878668e.jpg?1686530455" alt="">
+                <img class="plan-img" src="https://images.stayfolio.com/system/pictures/images/000/183/468/original/b0298a5b462ffbccea97a23221b65ebc66fb0ade.jpg?1686530455" alt="">
+              </div>
+              <button id="prev2" class="prev img-btn hidden" onclick="navigateTo2(-1)">&#10094;</button>
+              <button id="next2" class="next img-btn" onclick="navigateTo2(1)">&#10095;</button>
+              <div class="indicator">
+                <span class="dot2 active"></span>
+                <span class="dot2"></span>
+                <span class="dot2"></span>
+                <span class="dot2"></span>
+                <span class="dot2"></span>
+                <span class="dot2"></span>
+                <span class="dot2"></span>
+                <span class="dot2"></span>
+                <span class="dot2"></span>
+                <span class="dot2"></span>
+                <span class="dot2"></span>
+              </div>
+            </div>
+            <div class="plan-info">
+              <div class="info-top">
+                <p class="info-open">6 . 21 | 5 오후 OPEN</p>
+                <div class="info-name">
+                  <p class="info-title">무와섬</p>
+                  <div class="info-day">D - 9</div>
+                </div>
+                <p>10% 할인 & 알림 신청시 오픈 10분 전 우선 예약 제공</p>
+                <p class="personnel">현재 알람 신청 인원 : 16명</p>
+              </div>
+              <div class="info-bottom">
+                <div class="info-text">
+                  전주한옥마을의 한적한 골목, 흰색 낮은 문을 열고 들어서면 돌다리를 연상시키는 공간이 있다. 한 칸씩 돌을 건너면 대나무로 둘러싸인 ‘무와섬’이 드러난다. 무와섬의 호스트는 아무것도 하지 않고 편히 쉴 수 있는 도심 속 섬과 같은 공간을 구상했다. 잠시 현실과는 멀어져 단절된 공간으로 들어가 본다.
+                </div>
+                <div class="info-option">
+                  <p>전북 / 전주시</p>
+                  <p>2~3명</p>
+                  <p>₩350,000 ~</p>
+                </div>
+                <button class="info-btn" type="button">알림 신청하기</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="plan-box-list">
+            <div class="plan-img-box">
+              <div id="container3">
+                <img class="plan-img" src="https://images.stayfolio.com/system/pictures/images/000/182/710/original/736902f6940cb619eb72319fcabf68f86daefdf7.JPG?1685943460" alt="">
+                <img class="plan-img" src="https://images.stayfolio.com/system/pictures/images/000/182/708/original/33f1cd905fb524c76b13fd5704ac7af5c5055dbc.jpg?1685943459" alt="">
+                <img class="plan-img" src="https://images.stayfolio.com/system/pictures/images/000/182/712/original/26011f780169603a46ab16ba8557fb5992054322.jpg?1685943460" alt="">
+                <img class="plan-img" src="https://images.stayfolio.com/system/pictures/images/000/182/705/original/57f1d1a750c871a7e6e7c7af6560ac6cf0853431.jpg?1685943459" alt="">
+                <img class="plan-img" src="https://images.stayfolio.com/system/pictures/images/000/182/706/original/0c083d67078e1de4740ad985c7256fcf63ce8efb.jpg?1685943460" alt="">
+                <img class="plan-img" src="https://images.stayfolio.com/system/pictures/images/000/182/709/original/02114831077969250a7b5eb036b145513c107b3e.jpg?1685943460" alt="">
+                <img class="plan-img" src="https://images.stayfolio.com/system/pictures/images/000/182/707/original/52046832298426d51a569b28ebed8f83a1e58ee5.jpg?1685943459" alt="">
+                <img class="plan-img" src="https://images.stayfolio.com/system/pictures/images/000/182/713/original/8dcab4a683f3049b5f8a7f52e78f44045df54362.jpg?1685943461" alt="">
+                <img class="plan-img" src="https://images.stayfolio.com/system/pictures/images/000/182/711/original/58a0658173d2a4f8d7a9e9451b78abbc130c11eb.JPG?1685943461" alt="">
+                <img class="plan-img" src="https://images.stayfolio.com/system/pictures/images/000/182/714/original/aafb15536f71dba43a1e1498ba2259fb6ac4744e.jpg?1685943461" alt="">
+              </div>
+              <button id="prev3" class="prev img-btn hidden" onclick="navigateTo3(-1)">&#10094;</button>
+              <button id="next3" class="next img-btn" onclick="navigateTo3(1)">&#10095;</button>
+              <div class="indicator">
+                <span class="dot3 active"></span>
+                <span class="dot3"></span>
+                <span class="dot3"></span>
+                <span class="dot3"></span>
+                <span class="dot3"></span>
+                <span class="dot3"></span>
+                <span class="dot3"></span>
+                <span class="dot3"></span>
+                <span class="dot3"></span>
+                <span class="dot3"></span>
+              </div>
+            </div>
+            <div class="plan-info">
+              <div class="info-top">
+                <p class="info-open">6 . 21 | 5 오후 OPEN</p>
+                <div class="info-name">
+                  <p class="info-title">고도</p>
+                  <div class="info-day">D - 9</div>
+                </div>
+                <p>10% 할인 & 알림 신청시 오픈 10분 전 우선 예약 제공</p>
+                <p class="personnel">현재 알람 신청 인원 : 29명</p>
+              </div>
+              <div class="info-bottom">
+                <div class="info-text">
+                  해발고도 700m의 강원도 평창은 ‘가장 행복한 고도’라는 브랜드 아이덴티티를 가지고 있다. 인간의 생활과 모든 동식물의 성장에도 최적의 조건을 갖추고 있기 때문이다. 붉은 벽돌집의 ‘고도’는 평창역에서 5분 거리에 위치해 있다. 모두가 편안함을 느끼는 이 고도에, 호스트는 평온한 휴식의 공간을 만들고자 했다.
+                </div>
+                <div class="info-option">
+                  <p>강원도 / 평창군</p>
+                  <p>2~3명</p>
+                  <p>₩400,000 ~</p>
+                </div>
+                <button class="info-btn" type="button">알림 신청하기</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <div class="footer-container">
+        <div class="footer-cont">
+          <div class="logo">
+            <img src="https://www.stayfolio.com/web/images/logo.png" alt="">
+          </div>
+          <div class="footer-menu">
+            <ul class="f-menu">
+              <li>
+                <a href="#">ABOUT</a>
+              </li>
+              <li class="f-menu-li">
+                <a href="#">4 POINT APPROACH</a>
+              </li>
+              <li class="f-menu-li">
+                <a href="#">NEWSLETTER</a>
+              </li>
+              <li class="f-menu-li">
+                <a href="#">CAREERS</a>
+              </li>
+            </ul>
+            <div class="cs">
+              <div class="cs1">
+                <div class="cs-tit">고객센터</div>
+                <div class="cs-time">(10:00 ~ 18:00)</div>
+              </div>
+              <div class="cs-btn1">
+                <button type="button" class="gry">1:1 문의</button>
+                <button type="button" class="wh">입점 문의</button>
+                <button type="button" class="wh">컨설팅 문의</button>
+              </div>
+              <div class="cs-btn2">
+                <button type="button" class="wh">마케팅 제휴</button>
+                <button type="button" class="wh">B2B 구매</button>
+              </div>
+              <div class="cs-temp">
+                <a href="https://stayfolio.notion.site/Ver-1-2-0265343cd9474065a40a1dd5182f95eb">
+                  이용약관
+                </a>
+                <a class="cs-temp-bold" href="https://stayfolio.notion.site/Ver-2-0-2-a0e78ee50af64fb1afc0e1c7fbceaea5">
+                  개인정보 처리방침
+                </a>
+              </div>
+            </div>
+          </div>
+          <ul class="sns">
+            <li class="facebook">
+              <a href="https://www.facebook.com/stayfolio">facebook</a>
+            </li>
+            <li class="instagram">
+              <a href="https://www.instagram.com/stayfolio/">instagram</a>
+            </li>
+            <li class="naver">
+              <a href="https://blog.naver.com/stayfolio">naver</a>
+            </li>
+            <li class="brunch">
+              <a href="https://brunch.co.kr/@stayfolio#magazines">brunch</a>
+            </li>
+            <li class="youtube">
+              <a href="https://www.youtube.com/channel/UCyxHiHdFLxmnNxl5435Q0eA">youtube</a>
+            </li>
+          </ul>
+          <div class="copyright">Copyright©STAYFOLIO</div>
+        </div>
+        <div class="footer-address">
+          <span class="info">
+            상호명 (주) 스테이폴리오
+            |
+            대표자 이상묵
+            |
+            주소 서울특별시 종로구 자하문로9길 24, 2층(통인동) 
+            |
+            전화 1670-4123
+            |
+            help@stayfolio.com
+            <br>
+            사업자등록번호 676-87-00055
+            |
+            통신판매업신고 제2015-서울종로-0499호
+            <a class="info" href="https://www.ftc.go.kr/bizCommPop.do?wrkr_no=6768700055">
+              [사업자정보확인]
+            </a>
+            |
+            관광사업자등록 일반여행업 2018-000049호(종로구청)
+            <div class="info">
+              (주)스테이폴리오는 통신판매 중개자로서 통신판매의 당사자가 아니며 상품의 예약, 이용 및 환불 등과 관련한 의무와 책임은 각 판매자에게 있습니다.
+            </div>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- BOTTOM BAR -->
+    <div id="bottom-bar" class="box-hidden">
+      <ul class="flex btm-box">
+        <li class="flex bottom-list">
+          <svg class="bottom-icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+            <path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/>
+          </svg>
+          <span>FIND STAY</span>
+        </li>
+        <li class="flex bottom-list">
+          <svg class="bottom-icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+            <path d="M374.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-320 320c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l320-320zM128 128A64 64 0 1 0 0 128a64 64 0 1 0 128 0zM384 384a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z"/>
+          </svg>
+          <span>PROMOTION</span>
+        </li>
+        <li class="flex bottom-list">
+          <svg class="bottom-icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+            <path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32C93.5 32 46.3 45.3 18.1 56.1C6.8 60.5 0 71.7 0 83.8V454.1c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6c11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6c-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/>
+          </svg>
+          <span>JOURNAL</span>
+        </li>
+        <li class="flex bottom-list">
+          <svg class="bottom-icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+            <path d="M64 80c-8.8 0-16 7.2-16 16V416c0 8.8 7.2 16 16 16H288V352c0-17.7 14.3-32 32-32h80V96c0-8.8-7.2-16-16-16H64zM288 480H64c-35.3 0-64-28.7-64-64V96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V320v5.5c0 17-6.7 33.3-18.7 45.3l-90.5 90.5c-12 12-28.3 18.7-45.3 18.7H288z"/>
+          </svg>
+          <span>PRE-ORDER</span>
+        </li>
+        <li class="flex bottom-list">
+          <svg class="bottom-icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+            <path d="M160 368c26.5 0 48 21.5 48 48v16l72.5-54.4c8.3-6.2 18.4-9.6 28.8-9.6H448c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64c-8.8 0-16 7.2-16 16V352c0 8.8 7.2 16 16 16h96zm48 124l-.2 .2-5.1 3.8-17.1 12.8c-4.8 3.6-11.3 4.2-16.8 1.5s-8.8-8.2-8.8-14.3V474.7v-6.4V468v-4V416H112 64c-35.3 0-64-28.7-64-64V64C0 28.7 28.7 0 64 0H448c35.3 0 64 28.7 64 64V352c0 35.3-28.7 64-64 64H309.3L208 492z"/>
+          </svg>
+          <span>MESSAGE</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    var container = document.getElementById('container');
+    var container2 = document.getElementById('container2');
+    var container3 = document.getElementById('container3');
+    var prev = document.getElementById('prev');
+    var prev2 = document.getElementById('prev2');
+    var prev3 = document.getElementById('prev3');
+    var next = document.getElementById('next');
+    var next2 = document.getElementById('next2');
+    var next3 = document.getElementById('next3');
+    var dots = document.getElementsByClassName('dot');
+    var dots2 = document.getElementsByClassName('dot2');
+    var dots3 = document.getElementsByClassName('dot3');
+    var imageWidth = 100;
+    var previousIndex = 0;
+    var previousIndex2 = 0;
+    var previousIndex3 = 0;
+    var thisIndex = 0;
+    var thisIndex2 = 0;
+    var thisIndex3 = 0;
+
+    function navigateTo(data) {
+
+      thisIndex += data;
+
+      // 컨테이너 이동 (이미지 움직이기)
+      container.style.transform = `translateX(-${thisIndex * imageWidth}%)`;
+
+      // 다음 버튼
+      if (thisIndex === 8) { // 마지막 이미지 일때
+        next.classList.add('hidden');
+      } else {
+        next.classList.remove('hidden');
+      }
+
+      // 이전 버튼
+      if (thisIndex === 0) { // 첫번째 이미지에 있는경우
+        prev.classList.add('hidden');
+      } else {
+        prev.classList.remove('hidden');
+      }
+
+      // indicator 
+      dots[thisIndex].classList.add('active');
+      dots[previousIndex].classList.remove('active');
+
+      // 이전 인덱스값 구하기
+      previousIndex = thisIndex;
+    }
+
+    function navigateTo2(data2) {
+
+      thisIndex2 += data2;
+
+      // 컨테이너 이동 (이미지 움직이기)
+      container2.style.transform = `translateX(-${thisIndex2 * imageWidth}%)`;
+
+      // 다음 버튼
+      if (thisIndex2 === 10) { // 마지막 이미지 일때
+        next2.classList.add('hidden');
+      } else {
+        next2.classList.remove('hidden');
+      }
+
+      // 이전 버튼
+      if (thisIndex2 === 0) { // 첫번째 이미지에 있는경우
+        prev2.classList.add('hidden');
+      } else {
+        prev2.classList.remove('hidden');
+      }
+
+      // indicator 
+      dots2[thisIndex2].classList.add('active');
+      dots2[previousIndex2].classList.remove('active');
+
+      // 이전 인덱스값 구하기
+      previousIndex2 = thisIndex2;
+    }
+
+    function navigateTo3(data3) {
+
+      thisIndex3 += data3;
+
+      // 컨테이너 이동 (이미지 움직이기)
+      container3.style.transform = `translateX(-${thisIndex3 * imageWidth}%)`;
+
+      // 다음 버튼
+      if (thisIndex3 === 9) { // 마지막 이미지 일때
+        next3.classList.add('hidden');
+      } else {
+        next3.classList.remove('hidden');
+      }
+
+      // 이전 버튼
+      if (thisIndex3 === 0) { // 첫번째 이미지에 있는경우
+        prev3.classList.add('hidden');
+      } else {
+        prev3.classList.remove('hidden');
+      }
+
+      // indicator 
+      dots3[thisIndex3].classList.add('active');
+      dots3[previousIndex3].classList.remove('active');
+
+      // 이전 인덱스값 구하기
+      previousIndex3 = thisIndex3;
+    }
+  </script>
+  
+</body>
+</html>

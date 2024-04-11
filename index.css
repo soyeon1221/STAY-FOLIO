@@ -1,0 +1,732 @@
+body, ul, li {
+  margin: 0;
+  padding: 0;
+}
+ul, li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* HEADER */
+#header {
+  background-color: black;
+  text-align: center;
+  height: 5rem;
+  letter-spacing: 1rem;
+  font-size: large;
+}
+#header a {
+  text-decoration: none;
+  color: white;
+  line-height: 5rem;
+}
+
+
+/* NAVIGATION */
+#menu {
+  position: sticky;
+  background-color: #fff;
+  top: 0;
+  z-index: 9001;
+}
+.flex {
+  display: flex;
+}
+.menu-list {
+  height: 4.6rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo {
+  background-image: url(https://www.stayfolio.com/web/images/logo.png);
+  background-size: cover;
+  width: 5.7rem;
+  height: 2.4rem;
+  margin-left: 3.5rem;
+}
+/* .menu-item:hover {
+  background-color: #ddd;
+  display: block;
+} */
+.menu-item {
+  color: inherit;
+}
+.dropdown-container {
+  padding-left: 20rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.nav-where::after {
+  content: "|";
+  padding: 0 1rem;
+}
+.dropdown-container:hover .dropdown-content {
+  display: block;
+}
+.where-icon {
+  font-size: 1.3rem;
+  padding-right: 0.5rem;
+}
+.when-icon {
+  font-size: 1.3rem;
+  padding-right: 0.5rem;
+}
+.sub-list:nth-child(4):after {
+  content: "|";
+  padding: 0 1rem;
+  color: #ddd;
+}
+.sub-list {
+  padding: 0 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.user {
+  color: #aaa;
+  padding-right: 3.5rem;
+  cursor: pointer;
+}
+.login {
+  padding-right: 1rem;
+}
+.login-icon {
+  font-size: 0.9rem;
+  fill: #aaa;
+}
+.global-icon {
+  font-size: 0.93rem;
+  padding-top: 0.1rem;
+  fill: #aaa;
+}
+.side-menu {
+  display: none;
+}
+.line {
+  max-width: 1800px;
+  margin: 0 auto;
+  border-bottom: 1px solid #ddd;
+}
+@media (max-width: 1840px) {
+  .nav-logo {
+    margin: 1rem;
+  }
+  .user {
+    padding-right: 1rem;
+  }
+}
+@media (max-width: 1840px) {
+  .dropdown-container {
+    padding-left: 5rem;
+  }
+}
+@media (max-width: 1060px) {
+  .dropdown-container {
+    display: none;
+  }
+  .sub-menu {
+    display: none;
+  }
+  .side-menu {
+    display: block;
+    font-size: 2.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 1rem;
+    cursor: pointer;
+  }
+}
+
+
+/* CONTENTS */
+/* main1 */
+#contents {
+  /* min-width: 1000px; */
+  box-sizing: border-box;
+}
+.main1 {
+  margin: 0 auto;
+  max-width: 1800px;
+}
+.main1-container {
+  position: relative;
+}
+.main1-img {
+  box-sizing: border-box;
+  border: none;
+}
+.main1-img img{
+  width: 100%;
+}
+.main1-banner {
+  background-color: white;
+  width: 220px;
+  height: 250px;
+  font-size: small;
+  position: absolute;
+  right: 6rem;
+  top: 2rem;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 100px;
+}
+.banner-img {
+  width: 200px;
+  height: 80px;
+}
+.more {
+  border-bottom: 1px solid #000;
+  display: inline-block;
+}
+@media (max-width: 770px) {
+  .main1 {
+    height: 400px;
+  }
+  .main1-banner {
+    width: 80%;
+    left: 4%;
+    right: 5%;
+  }
+}
+
+/* main2 */
+.main2-container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 10rem auto 0;
+  overflow: hidden;
+}
+.main2-text {
+  font-size: 16px;
+  letter-spacing: 8px;
+  width: 300px;
+  margin: 0 auto 50px;
+  max-width: 520px;
+}
+.main2-contents {
+  box-sizing: border-box;
+  transform: translate3d(0px, 0px, 0px);
+}
+.main2-box {
+  cursor: pointer;
+  text-align: center;
+  padding: 0 1rem;
+  width: 400px;
+}
+.main2-img:hover {
+  transform: scale(1.01);
+}
+.main2-img {
+  width: 400px;
+  height: 250px;
+}
+.main2-img img {
+  width: 100%;
+}
+.main2-boxtext {
+  margin: 20px auto;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.main2-subtext {
+  font-size: 0.9rem;
+}
+.main2-more {
+  border-bottom: 1px solid #000;
+  display: inline-block;
+  padding-top: 1rem;
+  font-size: 0.8rem;
+  line-height: 2rem;
+}
+.main2-btn {
+  font-size: 1rem;
+  background-color: transparent;
+  border: none;
+  left: 45%;
+  padding-top: 3rem;
+  position: relative;
+}
+.indicator {
+  display: inline-block;
+  position: relative;
+  left: 45%;
+}
+#number::after {
+  content: "/";
+  padding: 0 0.5rem;
+}
+.dot {
+  display: inline-block;
+  width: 1.5rem;
+  height: 0.5rem;
+  position: relative;
+}
+@media (max-width: 1080px) {
+  .main2-box {
+    display: none;
+  }
+  #main2-box1 {
+    display: block;
+  }
+  #main2-box2 {
+    display: block;
+  }
+}
+@media (max-width: 770px) {
+  .main2-contents {
+    justify-content: start;
+    padding-left: 2rem;
+  }
+}
+@media (max-width: 600px) {
+  .main2-text {
+    font-size: 0.8rem;
+    padding-left: 4rem;
+  }
+  #main2-box2 {
+    display: none;
+  }
+}
+
+/* main3 */
+#main3 {
+  height: 900px;
+  margin: 200px auto 0;
+  max-width: 1350px;
+  position: relative;
+}
+.main3-text {
+  position: relative;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.main3-text::before {
+  content: "";
+  border-top: 3px solid #000;
+  width: 3rem;
+  display: block;
+  padding-top: 0.5rem;
+}
+.main3-box {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 49%;
+}
+.tag-top {
+  top: -35px;
+  right: 0;
+  position: absolute;
+  font-size: 1.1rem;
+  color: #222;
+}
+.tag-bottom {
+  bottom: -35px;
+  right: 0;
+  position: absolute;
+  font-size: 1.1rem;
+  color: #222;
+}
+.box-1 {
+  background-image: url(https://images.stayfolio.com/system/pictures/images/000/151/951/original/ca238c6341d7e2b59d4458de98b0f88c70e0aa53.jpg?1667897316);
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 49%;
+  height: 0;
+  padding-bottom: 49%;
+  position: absolute;
+}
+.box-2 {
+  background-image: url(https://images.stayfolio.com/system/pictures/images/000/151/835/original/9b32b277202dea26ae6a04aaec7a1e4e68afc0b3.jpg?1667871061);
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 25.5%;
+  width: 23.5%;
+  height: 0;
+  padding-bottom: 23.5%;
+}
+.box-3 {
+  background-image: url(https://images.stayfolio.com/system/pictures/images/000/151/832/original/66daac0ea1140c80b2546c7116abb4f529e5deb2.jpg?1667870939);
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 23.5%;
+  height: 0;
+  padding-bottom: 23.5%;
+}
+.box-4 {
+  background-image: url(https://images.stayfolio.com/system/pictures/images/000/151/834/original/0d0bf7a427149e6099dbf83c29563932c982f90d.jpg?1667871061);
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  right: 25.5%;
+  width: 23.5%;
+  height: 0;
+  padding-bottom: 23.5%;
+}
+.box-5 {
+  background-image: url(https://images.stayfolio.com/system/pictures/images/000/151/836/original/f0357ea7c716408a7fde7368578830c9cd0c99d6.jpg?1667871061);
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 23.5%;
+  height: 0;
+  padding-bottom: 23.5%;
+}
+@media (max-width: 1490px) {
+  #main3 {
+    padding: 0 2rem;
+  }
+}
+@media (max-width: 1300px) {
+  .main3-text {
+    font-size: 1rem;
+  }
+  .main3-text::before {
+    content: "";
+    border-top: 2px solid #000;
+    width: 2.5rem;
+  }
+  .tag-top {
+    font-size: 0.9rem;
+  }
+  .tag-bottom {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 800px) {
+  #main3 {
+    height: 1000px;
+  }
+  .main3-text {
+    font-weight: 500;
+  }
+  .main3-text::before {
+    content: "";
+    width: 2rem;
+  }
+  .box-1 {
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 49%;
+    position: absolute;
+  }
+  .box-1 span {
+    top: -35px;
+    right: 0;
+  }
+  .box-2 {
+    top: 210%;
+    left: 0;
+    width: 23.5%;
+  }
+  .tag-top {
+    top: 105%;
+    right: 0;
+    font-size: 0.8rem;
+  }
+  .tag-bottom {
+    top: 105%;
+    right: 0;
+    font-size: 0.8rem;
+  }
+  .box-3 {
+    top: 210%;
+    left: 25%;
+    width: 23.5%;
+  }
+  .box-4 {
+    top: 210%;
+    left: 50%;
+    width: 23.5%;
+  }
+  .box-5 {
+    top: 210%;
+    left: 75%;
+    width: 23.5%;
+  }
+}
+/* @media (max-width: 500px) {
+  #main3 {
+    height: 800px;
+  }
+} */
+
+/* main4 */
+#main4 {
+  margin: 5rem auto;
+  max-width: 1350px;
+  position: relative;
+}
+.main4-title {
+  margin-bottom: 5rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1rem;
+}
+.main4-text {
+  margin-top: 2rem;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 600;
+}
+.main4-name {
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+.main4-box1 {
+  display: inline-block;
+  width: 33%;
+}
+.main4-img-box {
+  width: 100%;
+}
+.main4-img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.text-box {
+  bottom: 0;
+}
+.main4-box2 {
+  display: inline-block;
+  width: 33%;
+}
+.main4-box3 {
+  display: inline-block;
+  width: 33%;
+}
+
+
+
+/* FOOTER */
+#footer {
+  position: relative;
+  background: #f5f5f5;
+}
+.footer-container {
+  padding: 65px 75px;
+  max-width: 1800px;
+  position: relative;
+  margin: 0 auto;
+}
+.footer-cont {
+  position: relative;
+}
+.logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.logo img {
+  width: 78px;
+}
+.footer-menu {
+  display: flex;
+}
+.f-menu {
+  width: 130px;
+}
+.f-menu li a{
+  color: inherit;
+  margin-top: 24px;
+  font-size: 14px;
+  color: #4d4d4d;
+}
+.f-menu-li {
+  margin-top: 30px;
+}
+.cs {
+  margin-left: 5vW;
+}
+.cs1 {
+  display: flex;
+  align-items: center;
+}
+.cs-tit {
+  font-size: 18px;
+  font-weight: 600;
+  color: #4d4d4d;
+}
+.cs-time {
+  margin: 0px 0px 0px 4px;
+  font-size: 14px;
+  color: #4d4d4d;
+}
+.cs-btn1 {
+  margin-top: 30px;
+}
+.gry {
+  background: #4d4d4d;
+  color: #fff;
+  margin-bottom: 8px;
+}
+.cs-btn1 button {
+  display: inline-block;
+  margin-right: 8px;
+  width: 80px;
+  height: 28px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #4d4d4d;
+  cursor: pointer;
+  font-weight: 500;
+}
+.wh {
+  background: transparent;
+  color: #4d4d4d;
+  margin-bottom: 8px;
+}
+.cs-btn2 {
+  margin-top: 30px;
+}
+.cs-btn2 button {
+  display: inline-block;
+  margin-right: 8px;
+  width: 80px;
+  height: 28px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #4d4d4d;
+  cursor: pointer;
+  font-weight: 500;
+}
+.cs-temp {
+  margin-top: 15px;
+}
+.cs-temp a {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 13px;
+  color: #666;
+  text-decoration: none;
+}
+.cs-temp-bold {
+  font-weight: 900;
+}
+.sns {
+  position: absolute;
+  bottom: 25px;
+  right: 0;
+  list-style: none;
+}
+.sns li {
+  display: inline-block;
+  margin-right: 2px;
+}
+.sns li a {
+  display: inline-block;
+  text-indent: -99999px;
+  width: 20px;
+  height: 20px;
+  text-decoration: none;
+  color: inherit;
+}
+.facebook {
+  background: url(https://www.stayfolio.com/web/images/sns-facebook.svg);
+  background-size: cover;
+}
+.instagram {
+  background: url(https://www.stayfolio.com/web/images/sns-insta.svg);
+  background-size: cover;
+}
+.naver {
+  background: url(https://www.stayfolio.com/web/images/sns-naver.svg);
+  background-size: cover;
+}
+.brunch {
+  background: url(https://www.stayfolio.com/web/images/sns-brunch.svg);
+  background-size: cover;
+}
+.youtube {
+  background: url(https://www.stayfolio.com/web/images/sns-youtube.svg);
+  background-size: cover;
+}
+.copyright {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 12px;
+  color: #b3b3b3;
+}
+.footer-address {
+  margin-top: 40px;
+  padding-top: 18px;
+  width: 100%;
+  border-top: 1px solid #ccc;
+  display: inline-block;
+}
+.info {
+  font-size: 0.7rem;
+  color: #999;
+  margin-right: 15px;
+}
+.footer-address a.info {
+  display: inline;
+  text-decoration: none;
+  color: inherit;
+  margin: 0;
+}
+@media (max-width: 770px) {
+  .logo {
+    position: static;
+    padding-bottom: 1rem;
+  }
+  .sns {
+    top: 0;
+    right: 0;
+  }
+  .copyright {
+    margin: 1rem 0;
+    position: static;
+  }
+  .footer-address {
+    margin-top: 0;
+  }
+  .footer-container {
+    padding: 1rem;
+  }
+}
+
+
+/* BOTTOM BAR */
+.box-hidden {
+  display: none;
+}
+.btm-box {
+  height: 4.5rem;
+  justify-content: space-around;
+  line-height: 2rem;
+  border-top: 1px solid #ddd;
+}
+.bottom-list {
+  font-size: 0.7rem;
+  flex-direction: column;
+  padding: 0.9rem 0 0;
+}
+.bottom-icon {
+  height: 1.2rem;
+}
+@media (max-width: 1060px) {
+  #bottom-bar {
+    display: block;
+    /* position: fixed; */
+  }
+}

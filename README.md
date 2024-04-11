@@ -13,14 +13,14 @@
 <br>
 
 
-## &#127880;STAY FOLIO 바로가기
+## &#127987;STAY FOLIO 바로가기
 
 [<img src="./stay_icon.png" width="40" height="40">](https://soyeon1221.github.io/SSG-LANDERS) 아이콘 클릭!
 
 <br>
 
 
-## &#127880; 프로젝트 소개
+## &#127987; 프로젝트 소개
 
 HTML, CSS, JavaScript를 사용하여 만든 스테이폴리오 클론 사이트 입니다.
 
@@ -29,7 +29,7 @@ HTML, CSS, JavaScript를 사용하여 만든 스테이폴리오 클론 사이트
 <br>
 
 
-## &#127880; 기술 스택 및 라이브러리
+## &#127987; 기술 스택 및 라이브러리
 
 - <img src="https://img.shields.io/badge/JavaScript-ECD53F?style=flat-square&logo=JavaScript&logoColor=white"/>
 - <img src="https://img.shields.io/badge/HTML5-F46D01?style=flat-square&logo=HTML5&logoColor=white"/>
@@ -38,14 +38,14 @@ HTML, CSS, JavaScript를 사용하여 만든 스테이폴리오 클론 사이트
 <br>
 
 
-## &#127880; 개발 기간
+## &#127987; 개발 기간
 
 - 23.05.07 - 23.05.12 (총 6일)
 
 <br>
 
 
-## &#127880; 주요 기능
+## &#127987; 주요 기능
 
 ### 1. 상단
 
@@ -54,7 +54,6 @@ HTML, CSS, JavaScript를 사용하여 만든 스테이폴리오 클론 사이트
 ### 3. 경기일정
 
 ### 4. 유튜브
-
 
 ### 5. 미디어
 

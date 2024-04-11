@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STAY FOLIO</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet icon" href="stay_icon.png">
+</head>
+<body>
+  <div id="wrap">
+    <!-- HEADER -->
+    <header id="header">
+      <a href="https://www.stayfolio.com/">BRAND STAYS</a>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav id="menu">
+      <ul class="flex menu-list">
+        <li>
+          <a href="#" class="flex nav-logo"></a>
+        </li>
+        <li class="flex dropdown-container">
+          <div class="flex">
+            <svg class="where-icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+              <path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/>
+            </svg>
+            <a class="nav-where">어디로 떠날까요?</a>
+          </div>
+          <div class="flex">
+            <svg class="when-icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+              <path d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z"/>
+            </svg>
+            <a href="#" class="nav-when">언제 떠날까요?</a>
+          </div>
+        </li>
+        <li>
+          <ul class="flex sub-menu">
+            <li class="sub-list">FIND STAY</li>
+            <li class="sub-list">PROMTION</li>
+            <li class="sub-list">JOURNAL</li>
+            <li class="sub-list">
+              <a href="./pre-order.html">PRE-ORDER</a>
+            </li>
+            <li class="flex user">
+              <div class="login">
+                <svg class="login-icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                  <path d="M352 96l64 0c17.7 0 32 14.3 32 32l0 256c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0c53 0 96-43 96-96l0-256c0-53-43-96-96-96l-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32zm-9.4 182.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L242.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l210.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"/>
+                </svg>
+                LOGIN
+              </div>
+              <div class="global">
+                <svg class="global-icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                  <path d="M352 256c0 22.2-1.2 43.6-3.3 64H163.3c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64H348.7c2.2 20.4 3.3 41.8 3.3 64zm28.8-64H503.9c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64H380.8c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32H376.7c-10-63.9-29.8-117.4-55.3-151.6c78.3 20.7 142 77.5 171.9 151.6zm-149.1 0H167.7c6.1-36.4 15.5-68.6 27-94.7c10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5c11.6 26 20.9 58.2 27 94.7zm-209 0H18.6C48.6 85.9 112.2 29.1 190.6 8.4C165.1 42.6 145.3 96.1 135.3 160zM8.1 192H131.2c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64H8.1C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zM194.7 446.6c-11.6-26-20.9-58.2-27-94.6H344.3c-6.1 36.4-15.5 68.6-27 94.6c-10.5 23.6-22.2 40.7-33.5 51.5C272.6 508.8 263.3 512 256 512s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6C112.2 482.9 48.6 426.1 18.6 352H135.3zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6c25.5-34.2 45.2-87.7 55.3-151.6H493.4z"/>
+                </svg>
+                KO
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li class="side-menu">&#8801;</li>
+      </ul>
+      <div class="line"></div>
+    </nav>
+
+    
+    <!-- CONTENTS -->
+    <div id="contents">
+      <div class="main1">
+        <a href="./pre-order.html">
+          <div class="main1-container">
+            <div class="main1-img">
+              <img src="https://www.stayfolio.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fstayfolio-production%2Fce9f1bb2-5d2e-42a5-b122-b2cb979de8f3_pc4.jpg%3Fauto%3Dcompress%2Cformat%26rect%3D0%2C0%2C1800%2C850%26w%3D1800%26h%3D850&w=1920&q=75" alt="">
+            </div>
+            <div class="main1-banner">
+              <p>
+                <img class="banner-img" src="https://images.prismic.io/stayfolio-production/c745dc4c-2a9e-4b49-8c50-555c76982fda_pre-order_logo.jpeg?auto=compress,format&rect=0,0,800,267&w=300&h=100" alt="">
+              </p>
+              <p>가장 먼저 만나는 <br> 이 주의 신규 스테이</p>
+              <p>LAUNCHING</p>
+              <p class="more">read more</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div id="main2">
+        <div class="main2-container">
+          <div class="main2-text">오직 스테이폴리오에서만</div>
+          <div id="container" class="flex main2-contents">
+            <div id="main2-box1" class="flex main2-box">
+              <a href="#">
+                <div class="flex main2-img">
+                  <img src="https://images.stayfolio.com/system/pictures/images/000/088/860/display/1548b8870dcdeaacedc44ef0852b2635b3801e55.jpg?1629335655" alt="">
+                </div>
+                <div class="main2-boxtext">흐르는결</div>
+                <div class="main2-subtext">
+                  <span>경상/경주시</span>
+                  <span>₩350,000 ~ ₩550,000</span>
+                </div>
+                <div class="main2-more">예약하기</div>
+              </a>
+            </div>
+            <div id="main2-box2" class="flex main2-box">
+              <a href="#">
+                <div class="flex main2-img">
+                  <img src="https://www.stayfolio.com/_next/image?url=https%3A%2F%2Fimages.stayfolio.com%2Fsystem%2Fpictures%2Fimages%2F000%2F134%2F673%2Fdisplay%2Fd8ee7ec92552ccc69322ad8676392fd09bed36fc.jpg%3F1659666077&w=640&q=75" alt="">
+                </div>
+                <div class="main2-boxtext">스테이나음</div>
+                <div class="main2-subtext">
+                  <span>제주/제주시</span>
+                  <span>₩400,000 ~ ₩500,000</span>
+                </div>
+                <div class="main2-more">예약하기</div>
+              </a>
+            </div>
+            <div id="main2-box3" class="flex main2-box">
+              <a href="#">
+                <div class="flex main2-img">
+                  <img src="https://www.stayfolio.com/_next/image?url=https%3A%2F%2Fimages.stayfolio.com%2Fsystem%2Fpictures%2Fimages%2F000%2F090%2F452%2Fdisplay%2Fa7f43de42be7e7f6b8f922208117234150c5bc25.jpg%3F1630307315&w=640&q=75" alt="">
+                </div>
+                <div class="main2-boxtext">스테이한량</div>
+                <div class="main2-subtext">
+                  <span>강원/춘천시</span>
+                  <span>₩360,000 ~ ₩420,000</span>
+                </div>
+                <div class="main2-more">예약하기</div>
+              </a>
+            </div>
+            <div id="main2-box4" class="flex main2-box">
+              <a href="#">
+                <div class="flex main2-img">
+                  <img src="https://images.stayfolio.com/system/pictures/images/000/138/251/display/7dcd906c8a48686fdc50b716f3d419b2f49df91c.jpg?1661403797" alt="">
+                </div>
+                <div class="main2-boxtext">대정연가</div>
+                <div class="main2-subtext">
+                  <span>경상/봉화군</span>
+                  <span>₩225,000 ~ ₩320,000</span>
+                </div>
+                <div class="main2-more">예약하기</div>
+              </a>
+            </div>
+            <div id="main2-box5" class="flex main2-box">
+              <a href="#">
+                <div class="flex main2-img">
+                  <img src="https://images.stayfolio.com/system/pictures/images/000/097/076/display/338fb979b73f010dfbfeadd8f7d03c3ad0de40b0.jpg?1634196685" alt="">
+                </div>
+                <div class="main2-boxtext">수노은</div>
+                <div class="main2-subtext">
+                  <span>충청/태안군</span>
+                  <span>₩300,000 ~ ₩410,000</span>
+                </div>
+                <div class="main2-more">예약하기</div>
+              </a>
+            </div>
+            <div id="main2-box6" class="flex main2-box">
+              <a href="#">
+                <div class="flex main2-img">
+                  <img src="https://images.stayfolio.com/system/pictures/images/000/056/240/display/1c50e80fc7c6b3b2232402b34dd8b37d0071fefe.jpg?1602986265" alt="">
+                </div>
+                <div class="main2-boxtext">돌채</div>
+                <div class="main2-subtext">
+                  <span>제주/제주시</span>
+                  <span>₩200,000 ~ ₩350,000</span>
+                </div>
+                <div class="main2-more">예약하기</div>
+              </a>
+            </div>
+            <div id="main2-box7" class="flex main2-box">
+              <a href="#">
+                <div class="flex main2-img">
+                  <img src="https://images.stayfolio.com/system/pictures/images/000/062/989/display/5cff2887b034e5c1a8e22aafc20b18b88821574b.jpg?1612920036" alt="">
+                </div>
+                <div class="main2-boxtext">홍제연가</div>
+                <div class="main2-subtext">
+                  <span>강원/강릉시</span>
+                  <span>₩250,000 ~ ₩280,000</span>
+                </div>
+                <div class="main2-more">예약하기</div>
+              </a>
+            </div>
+            <div id="main2-box8" class="flex main2-box">
+              <a href="#">
+                <div class="flex main2-img">
+                  <img src="https://images.stayfolio.com/system/pictures/images/000/177/042/display/a9813f7eba7e35bbfd45701037fd3f9fe6cec115.jpeg?1681785453" alt="">
+                </div>
+                <div class="main2-boxtext">곳곳</div>
+                <div class="main2-subtext">
+                  <span>제주/서귀포시</span>
+                  <span>₩380,000 ~ ₩420,000</span>
+                </div>
+                <div class="main2-more">예약하기</div>
+              </a>
+            </div>
+          </div>
+    
+          <div class="indicator">
+            <span id="number" class="dot">1</span>
+            <span class="dot">8</span>
+          </div>
+          
+          <button id="prev" class="prev main2-btn" onclick="navigateTo(-1)">&#10094;</button>
+          <button id="next" class="next main2-btn" onclick="navigateTo(1)">&#10095;</button>
+        </div>
+      </div>
+  
+      <div id="main3">
+        <div class="main3-text">창에 자연을 담다</div>
+        <ul class="main3-box">
+          <li class="box-1">
+            <span class="tag-bottom">#숲</span>
+          </li>
+          <li class="box-2">
+            <span class="tag-top">#정원</span>
+          </li>
+          <li class="box-3">
+            <span class="tag-top">#돌</span>
+          </li>
+          <li class="box-4">
+            <span class="tag-bottom">#밭</span>
+          </li>
+          <li class="box-5">
+            <span class="tag-bottom">#바다/호수</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- <div id="main4">
+        <div class="main4-title">TRAVEL</div>
+        <div class="main4-contents">
+          <ul>
+            <li class="main4-box1">
+              <div class="main4-img-box">
+                <img class="main4-img" src="https://www.stayfolio.com/_next/image?url=https%3A%2F%2Fimages.stayfolio.com%2Fsystem%2Fpictures%2Fimages%2F000%2F183%2F400%2Foriginal%2F135bfed22bda49e272da8e6d2d12efc373883dca.jpg%3F1686446900&w=640&q=75" alt="">
+              </div>
+              <div class="text-box">
+                <p class="main4-text">이토록 느긋한<br>오가닉 라이프</p>
+                <p class="main4-name">강원 / 춘천시 길보경</p>
+                <p class="main2-more">read more</p>
+              </div>
+            </li>
+            <li class="main4-box2">
+              <div class="main4-img2"></div>
+              <div class="text-box">
+                <p class="main4-text">아름다운 판포리의<br>풍경 속에서</p>
+                <p class="main4-name">제주 / 제주시 고서우</p>
+                <p class="main2-more">read more</p>
+              </div>
+            </li>
+            <li class="main4-box3">
+              <div class="main4-img3"></div>
+              <div class="text-box">
+                <p class="main4-text">몸과 마음을 달래는<br>월화의 무드</p>
+                <p class="main4-name">강원 / 강릉시 변진혁</p>
+                <p class="main2-more">read more</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div> -->
+    </div>
+
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <div class="footer-container">
+        <div class="footer-cont">
+          <div class="logo">
+            <img src="https://www.stayfolio.com/web/images/logo.png" alt="">
+          </div>
+          <div class="footer-menu">
+            <ul class="f-menu">
+              <li>
+                <a href="#">ABOUT</a>
+              </li>
+              <li class="f-menu-li">
+                <a href="#">4 POINT APPROACH</a>
+              </li>
+              <li class="f-menu-li">
+                <a href="#">NEWSLETTER</a>
+              </li>
+              <li class="f-menu-li">
+                <a href="#">CAREERS</a>
+              </li>
+            </ul>
+            <div class="cs">
+              <div class="cs1">
+                <div class="cs-tit">고객센터</div>
+                <div class="cs-time">(10:00 ~ 18:00)</div>
+              </div>
+              <div class="cs-btn1">
+                <button type="button" class="gry">1:1 문의</button>
+                <button type="button" class="wh">입점 문의</button>
+                <button type="button" class="wh">컨설팅 문의</button>
+              </div>
+              <div class="cs-btn2">
+                <button type="button" class="wh">마케팅 제휴</button>
+                <button type="button" class="wh">B2B 구매</button>
+              </div>
+              <div class="cs-temp">
+                <a href="https://stayfolio.notion.site/Ver-1-2-0265343cd9474065a40a1dd5182f95eb">
+                  이용약관
+                </a>
+                <a class="cs-temp-bold" href="https://stayfolio.notion.site/Ver-2-0-2-a0e78ee50af64fb1afc0e1c7fbceaea5">
+                  개인정보 처리방침
+                </a>
+              </div>
+            </div>
+          </div>
+          <ul class="sns">
+            <li class="facebook">
+              <a href="https://www.facebook.com/stayfolio">facebook</a>
+            </li>
+            <li class="instagram">
+              <a href="https://www.instagram.com/stayfolio/">instagram</a>
+            </li>
+            <li class="naver">
+              <a href="https://blog.naver.com/stayfolio">naver</a>
+            </li>
+            <li class="brunch">
+              <a href="https://brunch.co.kr/@stayfolio#magazines">brunch</a>
+            </li>
+            <li class="youtube">
+              <a href="https://www.youtube.com/channel/UCyxHiHdFLxmnNxl5435Q0eA">youtube</a>
+            </li>
+          </ul>
+          <div class="copyright">Copyright©STAYFOLIO</div>
+        </div>
+        <div class="footer-address">
+          <span class="info">
+            상호명 (주) 스테이폴리오
+            |
+            대표자 이상묵
+            |
+            주소 서울특별시 종로구 자하문로9길 24, 2층(통인동) 
+            |
+            전화 1670-4123
+            |
+            help@stayfolio.com
+            <br>
+            사업자등록번호 676-87-00055
+            |
+            통신판매업신고 제2015-서울종로-0499호
+            <a class="info" href="https://www.ftc.go.kr/bizCommPop.do?wrkr_no=6768700055">
+              [사업자정보확인]
+            </a>
+            |
+            관광사업자등록 일반여행업 2018-000049호(종로구청)
+            <div class="info">
+              (주)스테이폴리오는 통신판매 중개자로서 통신판매의 당사자가 아니며 상품의 예약, 이용 및 환불 등과 관련한 의무와 책임은 각 판매자에게 있습니다.
+            </div>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- BOTTOM BAR -->
+    <div id="bottom-bar" class="box-hidden">
+      <ul class="flex btm-box">
+        <li class="flex bottom-list">
+          <svg class="bottom-icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+            <path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/>
+          </svg>
+          <span>FIND STAY</span>
+        </li>
+        <li class="flex bottom-list">
+          <svg class="bottom-icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+            <path d="M374.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-320 320c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l320-320zM128 128A64 64 0 1 0 0 128a64 64 0 1 0 128 0zM384 384a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z"/>
+          </svg>
+          <span>PROMOTION</span>
+        </li>
+        <li class="flex bottom-list">
+          <svg class="bottom-icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+            <path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32C93.5 32 46.3 45.3 18.1 56.1C6.8 60.5 0 71.7 0 83.8V454.1c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6c11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6c-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/>
+          </svg>
+          <span>JOURNAL</span>
+        </li>
+        <li class="flex bottom-list">
+          <svg class="bottom-icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+            <path d="M64 80c-8.8 0-16 7.2-16 16V416c0 8.8 7.2 16 16 16H288V352c0-17.7 14.3-32 32-32h80V96c0-8.8-7.2-16-16-16H64zM288 480H64c-35.3 0-64-28.7-64-64V96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V320v5.5c0 17-6.7 33.3-18.7 45.3l-90.5 90.5c-12 12-28.3 18.7-45.3 18.7H288z"/>
+          </svg>
+          <span>PRE-ORDER</span>
+        </li>
+        <li class="flex bottom-list">
+          <svg class="bottom-icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+            <path d="M160 368c26.5 0 48 21.5 48 48v16l72.5-54.4c8.3-6.2 18.4-9.6 28.8-9.6H448c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64c-8.8 0-16 7.2-16 16V352c0 8.8 7.2 16 16 16h96zm48 124l-.2 .2-5.1 3.8-17.1 12.8c-4.8 3.6-11.3 4.2-16.8 1.5s-8.8-8.2-8.8-14.3V474.7v-6.4V468v-4V416H112 64c-35.3 0-64-28.7-64-64V64C0 28.7 28.7 0 64 0H448c35.3 0 64 28.7 64 64V352c0 35.3-28.7 64-64 64H309.3L208 492z"/>
+          </svg>
+          <span>MESSAGE</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    var container = document.getElementById('container');
+    var prev = document.getElementById('prev');
+    var next = document.getElementById('next');
+    var number = document.getElementById('number');
+    var imageWidth = 432;
+    var previousIndex = 0;
+    var thisIndex = 0;
+
+    function navigateTo(data) {
+      thisIndex += data;
+
+      // 컨테이너 이동 (이미지 움직이기)
+      container.style.transform = `translateX(-${thisIndex * imageWidth}px)`;
+
+      // 이전 인덱스값 구하기
+      previousIndex = thisIndex;
+    }
+  </script>
+
+</body>
+</html>
