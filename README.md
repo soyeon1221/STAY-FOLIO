@@ -48,17 +48,18 @@ main, pre-order 페이지를 반응형으로 제작하였습니다.
 ## &#127988; 주요 기능
 
 ### 1. 상단
-![스테이폴리오1](https://github.com/soyeon1221/STAY-FOLIO/assets/121142418/a10f6524-96fe-4d8d-95af-0131fcc3a95b)
+<img src="https://github.com/soyeon1221/STAY-FOLIO/assets/121142418/a10f6524-96fe-4d8d-95af-0131fcc3a95b" width="800px" height="446px">
 
 ### 2. 숙소 소개
-![숙소 소개](https://github.com/soyeon1221/STAY-FOLIO/assets/121142418/62a678f3-0de2-457c-a5e7-de1beb29667c)
+<img src="https://github.com/soyeon1221/STAY-FOLIO/assets/121142418/62a678f3-0de2-457c-a5e7-de1beb29667c" width="800px" height="446px">
 
 ### 3. 반응형
+<img src="https://github.com/soyeon1221/STAY-FOLIO/assets/121142418/3c412cdc-fb3d-44aa-b160-750de0e30f62" width="800px" height="446px">
 
 ### 4. pre-order
-![pre-order](https://github.com/soyeon1221/STAY-FOLIO/assets/121142418/3051e518-0213-4e9a-bee2-2f242901e279)
+<img src="https://github.com/soyeon1221/STAY-FOLIO/assets/121142418/3051e518-0213-4e9a-bee2-2f242901e279" width="800px" height="446px">
 
 ### 5. 공개 예정
-![공개 예정 숙소](https://github.com/soyeon1221/STAY-FOLIO/assets/121142418/eadaae32-e5b5-4cfa-a237-c5c363c0ca72)
+<img src="https://github.com/soyeon1221/STAY-FOLIO/assets/121142418/eadaae32-e5b5-4cfa-a237-c5c363c0ca72" width="800px" height="446px">
 
 
