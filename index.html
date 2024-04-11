@@ -204,6 +204,7 @@
           <button id="next" class="next main2-btn" onclick="navigateTo(1)">&#10095;</button>
         </div>
       </div>
+      <script type="text/javascript" src="./js/main.js"></script>
   
       <div id="main3">
         <div class="main3-text">창에 자연을 담다</div>
@@ -391,26 +392,6 @@
       </ul>
     </div>
   </div>
-
-  <script>
-    var container = document.getElementById('container');
-    var prev = document.getElementById('prev');
-    var next = document.getElementById('next');
-    var number = document.getElementById('number');
-    var imageWidth = 432;
-    var previousIndex = 0;
-    var thisIndex = 0;
-
-    function navigateTo(data) {
-      thisIndex += data;
-
-      // 컨테이너 이동 (이미지 움직이기)
-      container.style.transform = `translateX(-${thisIndex * imageWidth}px)`;
-
-      // 이전 인덱스값 구하기
-      previousIndex = thisIndex;
-    }
-  </script>
 
 </body>
 </html>
