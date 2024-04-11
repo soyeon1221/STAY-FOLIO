@@ -51,14 +51,14 @@ main, pre-order 페이지를 반응형으로 제작하였습니다.
 ![스테이폴리오1](https://github.com/soyeon1221/STAY-FOLIO/assets/121142418/a10f6524-96fe-4d8d-95af-0131fcc3a95b)
 
 ### 2. 숙소 소개
-![스테이폴리오2](https://github.com/soyeon1221/STAY-FOLIO/assets/121142418/2193da64-fe06-42f9-857e-b13f4dca1280)
+![숙소 소개](https://github.com/soyeon1221/STAY-FOLIO/assets/121142418/62a678f3-0de2-457c-a5e7-de1beb29667c)
 
 ### 3. 반응형
 
 ### 4. pre-order
-![스테이폴리오_1](https://github.com/soyeon1221/STAY-FOLIO/assets/121142418/73b4c498-f131-4250-bcf0-9ac5eee7a825)
+![pre-order](https://github.com/soyeon1221/STAY-FOLIO/assets/121142418/3051e518-0213-4e9a-bee2-2f242901e279)
 
 ### 5. 공개 예정
-![스테이폴리오_2](https://github.com/soyeon1221/STAY-FOLIO/assets/121142418/f0497827-b15f-47d3-a514-a9bf4d190f72)
+![공개 예정 숙소](https://github.com/soyeon1221/STAY-FOLIO/assets/121142418/eadaae32-e5b5-4cfa-a237-c5c363c0ca72)
 
 
